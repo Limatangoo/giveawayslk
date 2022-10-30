@@ -1,0 +1,230 @@
+[20-Jul-2022 15:30:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[22-Jul-2022 10:43:06 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[22-Jul-2022 10:43:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[26-Jul-2022 17:15:43 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[26-Jul-2022 17:15:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[28-Jul-2022 07:47:50 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[28-Jul-2022 07:47:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[30-Jul-2022 15:59:11 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[30-Jul-2022 15:59:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[07-Aug-2022 18:33:13 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[07-Aug-2022 18:33:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[09-Aug-2022 07:19:19 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[09-Aug-2022 07:19:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[11-Aug-2022 20:11:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[12-Aug-2022 00:08:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[12-Aug-2022 10:17:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[0]%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[13-Aug-2022 07:42:06 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[13-Aug-2022 07:42:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[18-Aug-2022 20:06:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[19-Aug-2022 17:00:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[19-Aug-2022 18:20:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[23-Aug-2022 14:31:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[26-Aug-2022 17:56:43 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[26-Aug-2022 17:56:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[29-Aug-2022 03:14:59 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[29-Aug-2022 03:14:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[01-Sep-2022 08:27:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[01-Sep-2022 18:15:48 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[01-Sep-2022 18:15:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[02-Sep-2022 00:55:18 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[02-Sep-2022 00:55:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[02-Sep-2022 00:55:52 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[02-Sep-2022 00:55:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[02-Sep-2022 04:20:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[0]%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[02-Sep-2022 13:47:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'A=0%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[04-Sep-2022 07:50:07 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[04-Sep-2022 07:50:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[12-Sep-2022 15:26:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'A=0%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[13-Sep-2022 03:42:30 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[13-Sep-2022 03:42:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[14-Sep-2022 14:09:13 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[14-Sep-2022 14:09:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[15-Sep-2022 22:34:02 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[15-Sep-2022 22:34:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[16-Sep-2022 00:45:35 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[16-Sep-2022 00:45:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[18-Sep-2022 22:34:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[19-Sep-2022 04:31:53 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[19-Sep-2022 04:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[20-Sep-2022 02:26:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),&%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[20-Sep-2022 03:33:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1105 XPATH syntax error: '?~!giveawa1_wp83?~!' in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[20-Sep-2022 03:34:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1105 XPATH syntax error: '?~!giveawa1_wp83?~!' in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[20-Sep-2022 21:15:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nvOpzp; AND 1=1 OR (<'">iKO)),%'' at line 1 in /home/giveawa1/public_html/offers.php:75
+Stack trace:
+#0 /home/giveawa1/public_html/offers.php(75): PDOStatement->execute()
+#1 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 75
+[21-Sep-2022 13:12:44 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[21-Sep-2022 13:12:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[21-Sep-2022 13:14:10 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[21-Sep-2022 13:14:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[28-Sep-2022 02:20:27 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[28-Sep-2022 02:20:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[29-Sep-2022 09:52:33 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[29-Sep-2022 09:52:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[12-Oct-2022 23:26:58 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[12-Oct-2022 23:26:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[14-Oct-2022 08:50:35 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[14-Oct-2022 08:50:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[16-Oct-2022 15:31:49 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[16-Oct-2022 15:31:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[17-Oct-2022 19:35:49 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[17-Oct-2022 19:35:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[19-Oct-2022 10:06:36 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[19-Oct-2022 10:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[29-Oct-2022 10:00:15 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[29-Oct-2022 10:00:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90
+[29-Oct-2022 13:09:35 UTC] PHP Notice:  Undefined variable: menug_prep in /home/giveawa1/public_html/offers.php on line 90
+[29-Oct-2022 13:09:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/giveawa1/public_html/offers.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/offers.php on line 90

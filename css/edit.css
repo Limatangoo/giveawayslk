@@ -1,0 +1,138 @@
+.search_area {
+    margin-top: 100px;
+    padding: ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.search-wrap {
+    width: 688px;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.gvaws-nav-search {
+    width: 688px;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.search-box--2I2a {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+}
+.search-box__bar--29h6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+}
+.search-box__input--O34g{
+    background-color: #f5f5f5;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+width: 100%;
+height: 100%;
+padding: 13px 19px;
+font-family: Roboto-Regular, Helvetica, sans-serif;
+font-size: 14px;
+line-height: 1;
+letter-spacing: 0;
+color: #212121;
+border: none;
+outline: none;
+background: #fff;
+    background-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);
+-webkit-box-shadow: none;
+box-shadow: none;
+border-radius: 2px;
+}
+.search-box__search--2fC5 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    line-height: 1;
+}
+.search-box__button--1oH7 {
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    outline: none;
+    background: #ffbb14 url("data:image/svg+xml;charset=utf-8,%3Csvg class='icon' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cdefs%3E%3Cstyle/%3E%3C/defs%3E%3Cpath d='M695.467 622.933h-38.4l-12.8-12.8c46.933-55.466 76.8-128 76.8-204.8 0-174.933-140.8-315.733-315.734-315.733s-320 136.533-320 311.467S226.133 716.8 401.067 716.8c76.8 0 149.333-29.867 204.8-76.8l12.8 12.8v38.4l243.2 243.2 72.533-72.533-238.933-238.934zm-294.4 0c-119.467 0-217.6-98.133-217.6-217.6s98.133-217.6 217.6-217.6 217.6 98.134 217.6 217.6c4.266 119.467-93.867 217.6-217.6 217.6z' fill='%23FFF'/%3E%3C/svg%3E") 50% no-repeat;
+        background-size: auto;
+    background-size: auto;
+    background-size: 22px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.search_result{
+    text-align: center;
+}
+.products_card_trending {
+    text-align: center;
+}
+.products_card_trending_input {
+    display: inline-block;
+    margin-left: 10px;
+    width: 20px;
+}
+a {
+    text-decoration: underline;
+    color: #292999;
+}
+.products_card_name {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+.products_card_img img{
+   width: 60%;
+}
+.search_result_active h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.search_result_expired h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.search_result_pending h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.products_card_price {
+    display: inline-block;
+}
+.products_card_currency{
+    display: inline-block;
+    width: 20%;
+}
+@media (max-width: 1024px) {
+
+    .products_card{
+    background: #f7f7f7;
+    flex: 1 1 50%;
+    margin: 20px auto;
+    height: auto;
+    padding: 15px;
+    }
+
+}

@@ -1,0 +1,44 @@
+.card-banner-slider-list .main-counter {
+    width: 988px;
+    height: 344px;
+    margin-left: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 240, 117));
+}
+.main-counter .main-counter-div1 {
+    display:flex;
+}
+.main-counter-giveaways {
+    display: inline-block;
+    flex: 1 1 33.333%;
+    text-align: center;
+    margin:3em 0 3em 0;
+}
+.main-counter-card {
+    display: inline-block;
+    flex: 1 1 33.333%;
+    text-align: center;
+    margin:3em 0 3em 0;
+
+}
+.main-counter-deals {
+    display: inline-block;
+    flex: 1 1 33.333%;
+    text-align: center;
+    margin:3em 0 3em 0;
+}
+.counter {
+    font-size: 10em;
+    color: #372929;
+}
+.counter_p {
+    font-size: 2em;
+    color: #372929;
+}
+.main-counter-div2 .main-counter-div2-p{
+    font-size: 2em;
+    color: #372929;
+}
+.main-counter-div2{
+   text-align: center;
+   margin-top: 3em;
+}

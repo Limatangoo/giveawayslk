@@ -1,0 +1,2 @@
+[17-Nov-2021 23:44:02 America/New_York] PHP Warning:  preg_grep(): No ending delimiter '/' found in /home/giveawa1/public_html/includes/searchfile.php on line 30
+[17-Nov-2021 23:44:02 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/giveawa1/public_html/includes/searchfile.php on line 32

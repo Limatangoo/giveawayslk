@@ -1,0 +1,68 @@
+a{
+	text-decoration: underline;
+    color:#292999;
+}
+.products_card {
+    text-align: center;
+}
+.products_card_name {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+.products_card_trending{
+	text-align: center;
+}
+.products_card_trending_input{
+	display: inline-block;
+	margin-left: 10px;
+	width: 20px;
+}
+.products_card_link input{
+	width: 100%;
+}
+.products_card_btn {
+margin-top: 20px;
+}
+.page_number p {
+    display: inline-block;
+    margin: 15px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 00px;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    color: #000000;
+}
+.page_number i {
+    cursor: pointer;
+    font-size: 3em;
+}
+.page_number {
+    text-align: center;
+    display: block;
+    clear: both;
+    width: 1188px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.hp-mod-card {
+    width: auto;
+}
+.products_card_price {
+    display: inline-block;
+}
+.products_card_currency{
+    display: inline-block;
+    width: 30%;
+}
+@media (max-width: 1024px) {
+
+	.products_card{
+	background: #f7f7f7;
+	flex: 1 1 50%;
+	margin: 20px auto;
+	height: auto;
+	padding: 15px;
+	}
+
+}

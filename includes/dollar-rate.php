@@ -1,0 +1,1 @@
+  <?php $dollar_rate = 220; ?>

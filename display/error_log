@@ -1,0 +1,5 @@
+[24-Sep-2022 13:25:20 UTC] PHP Notice:  Undefined variable: conn in /home/giveawa1/public_html/display/header.php on line 209
+[24-Sep-2022 13:25:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/giveawa1/public_html/display/header.php:209
+Stack trace:
+#0 {main}
+  thrown in /home/giveawa1/public_html/display/header.php on line 209

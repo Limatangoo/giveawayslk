@@ -1,0 +1,53 @@
+
+.filter_products_middle_ajx{
+    text-align: center;
+}
+.products_card_trending {
+    text-align: center;
+}
+.products_card_trending_input {
+    display: inline-block;
+    margin-left: 10px;
+    width: 20px;
+}
+a {
+    text-decoration: underline;
+    color: #292999;
+}
+.products_card_name {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+.products_card_img img{
+   width: 60%;
+}
+.search_result_active h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.search_result_expired h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.search_result_pending h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.products_card_price {
+    display: inline-block;
+}
+.products_card_currency{
+    display: inline-block;
+    width: 30%;
+}
+@media (max-width: 1024px) {
+
+    .products_card{
+    background: #f7f7f7;
+    width: 40%;
+    margin: 20px auto;
+    height: auto;
+    padding: 15px;
+    }
+
+}
