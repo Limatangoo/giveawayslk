@@ -1,4 +1,4 @@
-<?php include '../includes/general-connect.php'?>
+<?php include '../databaseConnections/general-connect.php'?>
 
 
 <?php

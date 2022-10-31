@@ -1,7 +1,7 @@
 
 <!DOCTYPE HTML>
 <?php 
-include 'includes/general-connect.php';
+include 'databaseConnections/general-connect.php';
 
 
 ?>

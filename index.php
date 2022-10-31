@@ -1,5 +1,5 @@
 <?php 
-include 'includes/general-connect.php';
+include 'databaseConnections/general-connect.php';
 include 'includes/dollar-rate.php';
 
 ?>
@@ -124,14 +124,16 @@ $card_offers = "SELECT bank,tittle,card_type,proccessor_type,percentage,cover_ph
 $card_offers_prep=$conn->prepare($card_offers);
 $card_offers_prep->execute();
 $card_offers_prep_fetch=$card_offers_prep->setFetchMode(PDO::FETCH_ASSOC);
+$card_offers_prep_count = $card_offers_prep->rowCount();
 
 $card_offers_1 = "SELECT bank,tittle,card_type,proccessor_type,percentage,cover_photo,link FROM card_offers WHERE sub_category=:sub_category ORDER BY percentage DESC";
 $card_offers_prep_1=$conn->prepare($card_offers_1);
 $card_offers_prep_1->bindValue(':sub_category',"Food & Drink");
 $card_offers_prep_1->execute();
 $card_offers_prep_fetch_1=$card_offers_prep_1->setFetchMode(PDO::FETCH_ASSOC);
+$card_offers_prep_1_count = $card_offers_prep_1->rowCount();
 
-if($card_offers_prep->rowCount()>0){
+if($card_offers_prep_count>0){
 
   print('
      <div class="hp-mod-card card-official-stores J_OfficialStores J_NavChangeHook"  id="hp-official-stores" data-spm="officialStores" data-spm-max-idx="7">
@@ -153,8 +155,10 @@ if($card_offers_prep->rowCount()>0){
         while($i<1){
          print('<div class="card-official-stores-wrapper" data-tag="shops">');
         $carousel_count = 1;
-           while ($carousel_count < 7) {
-           $carousel_1=$card_offers_prep->fetch();
+           while ($carousel_1=$card_offers_prep->fetch()) {
+           if($carousel_count>8){
+              break;
+           }
    
         
             print(' <a class="card-official-stores-box hp-mod-card-hover align-left bank-offers" href="'.$carousel_1['link'].'"  title="'.$carousel_1['bank'].'" target="blank">
@@ -182,12 +186,15 @@ if($card_offers_prep->rowCount()>0){
            $i++;
            }
            
-                      $i=0;
+            $i=0;
+        if($card_offers_prep_1_count >0){
             while($i<1){
          print('<div class="card-official-stores-wrapper" data-tag="shops">');
         $carousel_count = 1;
-           while ($carousel_count < 7) {
-           $carousel_1_1=$card_offers_prep_1->fetch();
+           while ($carousel_1_1=$card_offers_prep_1->fetch()) {
+            if($carousel_count>8){
+              break;
+           }
    
         
             print(' <a class="card-official-stores-box hp-mod-card-hover align-left bank-offers" href="'.$carousel_1_1['link'].'"  title="'.$carousel_1_1['bank'].'" target="blank">
@@ -211,10 +218,11 @@ if($card_offers_prep->rowCount()>0){
       ');
              $carousel_count++;  
            }
+           
            print('</div>');
            $i++;
            }
-    
+          }
    print(' 
         </section>
         
@@ -233,7 +241,7 @@ if($card_offers_prep->rowCount()>0){
 <!-- best deals start point--->
 <?php  
 /*deals*/
-$trending_deals = "SELECT tittle,currency,old_price,discount_price,img1,link FROM deals WHERE trending='yes'";
+$trending_deals = "SELECT id,tittle,currency,old_price,discount_price,img1,link FROM deals WHERE trending='yes'";
 $trending_deals_prep=$conn->prepare($trending_deals);
 $trending_deals_prep->execute();
 $trending_deals_prep_fetch=$trending_deals_prep->setFetchMode(PDO::FETCH_ASSOC);
@@ -262,8 +270,8 @@ if($total_deals>0){
            
               $percentage = round((($carousel_1['old_price']-$carousel_1['discount_price'])/$carousel_1['old_price'])*100);
             print('
-                    <div class="card-jfy-item-wrapper hp-mod-card-hover J_Items inline">
-        <a href="'.$carousel_1['link'].'" target="blank">
+                    <div class="card-jfy-item-wrapper hp-mod-card-hover J_Items inline" name="deals_card" id="'.$carousel_1['id'].'">
+        <a href="'.$carousel_1['link'].'" target="blank" >
           <div class="card-jfy-item">
             
       <div class="card-jfy-image card-jfy-image-background J_GridImage">
@@ -282,13 +290,16 @@ if($total_deals>0){
       <div class="hp-mod-price">
         
       <div class="hp-mod-price-first-line">
-        <span class="currency">Rs. </span><span class="price" id="discounted_price">'.$carousel_1['discount_price'].'</span>
+        <span class="currency">Rs. </span><span name = "discounted_price" class="price" id="discounted_price'.$carousel_1['id'].'" data-target="'.$carousel_1['discount_price'].'">'.$carousel_1['discount_price'].'</span>
       </div>
     
-        <div class="hp-mod-price-second-line"><span class="hp-mod-price-text align-left">
-      <span class="currency"></span><span class="price" id="old_price">'.$carousel_1['old_price'].'</span>
-      </span>
-      <span class="hp-mod-discount align-left"> -'.$percentage.'%</span></div>
+        <div class="hp-mod-price-second-line">
+          <span class="hp-mod-price-text align-left">
+            <span class="currency"></span>
+            <span class="price" name="old_price" id="old_price'.$carousel_1['id'].'" data-target="'.$carousel_1['old_price'].'" >'.$carousel_1['old_price'].'</span>
+          </span>
+          <span class="hp-mod-discount align-left" id="discountPercentage'.$carousel_1['id'].'"></span>
+        </div>
       </div>
     
               

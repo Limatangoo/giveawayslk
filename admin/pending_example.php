@@ -1,9 +1,9 @@
 
 <?php 
 session_start();
-include '../includes/db_admin.php';
-include '../includes/general-connect.php';
-include '../includes/dollar-rate.php';
+include '../databaseConnections/db_admin.php';
+include '../databaseConnections/general-connect.php';
+include '../databaseConnections/dollar-rate.php';
 ?>
 
 <!DOCTYPE html>
